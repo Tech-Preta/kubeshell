@@ -10,13 +10,13 @@ O Kubernetes é uma plataforma poderosa para orquestração de contêineres, mas
 
 O projeto Kubeshell inclui uma variedade de scripts que abordam várias áreas da administração e segurança de clusters Kubernetes. Alguns dos scripts incluídos são:
 
-- check-pods-health.sh: verifica o estado de saúde dos pods no cluster, identificando pods com problemas.
+- [check-pods-health.sh](https://github.com/nataliagranato/kubeshell/blob/main/scripts/check-pods-health.sh): verifica o estado de saúde dos pods no cluster, identificando pods com problemas.
 
-- check-ingress-services.sh: verifica ingresses que não estão apontando para serviços válidos.
+- [check-ingress-services.sh](https://github.com/nataliagranato/kubeshell/blob/main/scripts/ingress.sh): verifica ingresses que não estão apontando para serviços válidos.
 
-- unused_pvcs.sh: identifica e lista Persistent Volume Claims (PVCs) não utilizados em um cluster Kubernetes e oferece a opção de removê-los.
+- [unused_pvcs.sh](https://github.com/nataliagranato/kubeshell/blob/main/scripts/unused_pvcs.sh): identifica e lista Persistent Volume Claims (PVCs) não utilizados em um cluster Kubernetes e oferece a opção de removê-los.
 
-- jobs_cron_failed.sh: verifica e lista os jobs e cron jobs que falharam em um cluster Kubernetes, removendo os pods lançados com erros.
+- [jobs_cron_failed.sh](https://github.com/nataliagranato/kubeshell/blob/main/scripts/jobs_cron_failed.sh): verifica e lista os jobs e cron jobs que falharam em um cluster Kubernetes, removendo os pods lançados com erros.
 
 E muitos outros scripts para diversas tarefas de administração e segurança.
 
